@@ -1,3 +1,8 @@
+"""
+This file here is the test file for Git perpouses
+"""
+
+
 def main():
     inp = str(input("enter string"))
     pos = 0
