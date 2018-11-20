@@ -7,5 +7,5 @@ def main():
             pos = pos + 1
             if(pos % 2 ==1):
                 ns = ns + w
-        print(ns)
+        print("the new string is" + ns)
 main()
