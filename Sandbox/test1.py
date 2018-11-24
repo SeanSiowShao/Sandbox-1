@@ -2,15 +2,16 @@
 This file here is the test file for Git perpouses
 """
 
-
+import random
 def main():
-    inp = str(input("enter string"))
-    pos = 0
-    ns = ""
-    if(len(inp)>0):
-        for w in inp:
-            pos = pos + 1
-            if(pos % 2 ==1):
-                ns = ns + w
-        print("the new string " + ns)
+    n = 100
+    c = 0
+    for i in range(100):
+        X=random.randint(0,1000)/1000.0
+        Y=random.randint(0,1000)/1000.0
+        if X*X+Y*Y <= 1:
+            c=c+1
+    print(str(4.0*c/n))
+
+
 main()
