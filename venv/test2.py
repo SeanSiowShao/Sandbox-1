@@ -1,10 +1,51 @@
 def main():
-    choice = int(input("Please enter 1. for ascii to alphabet or 2. for the reverse"))
-    if choice == 1:
-        asc = int(input("Enter ascii between 33 and 127"))
-        if 127 > asc > 33:
-            print(chr(asc))
-    elif choice == 2:
-        cha = (input("Enter a character"))
-        print(ord(cha))
+    """
+    CP1404/CP5632 Practical
+    Debugging exercise: almost-working version of a CSV scores file program.
+    The scores.csv file stores scores for each subject for 10 people.
+    This code reads the lines into lists, saves the first line as a list of subject codes and
+    converts the rest of the lines from a list of strings into a list of numbers,
+    which it then prints with the maximum value for that subject.
+    Nice. Except, it’s broken! It reads the lists per user not per subject so the results are incorrect.
+    Use the debugger to follow what it's doing... then fix it.
+    """
+
+    """Read and display student scores from scores file."""
+    scores_file = open("scores.csv")
+    print("file open")
+    scores_data = scores_file.readlines()
+    # print(scores_data)
+    subjects = scores_data[0].strip().split(",")
+    score_values = []
+    for score_line in scores_data[1:]:
+        score_strings = score_line.strip().split(",")
+        score_numbers = [int(value) for value in score_strings]
+        score_values.append(score_numbers)
+    scores_file.close()
+    scores_by_subject = reconstruct_score(score_values)
+    display_subject_details(scores_by_subject, subjects)
+
+def reconstruct_score(score_values):
+    print("reconstruction call")
+    subject_scores = []
+    number_of_subjects = len(score_values[0])
+    for i in range(number_of_subjects):
+        score_student = []
+        for scores in score_values:
+            # pop first score from by-student scores into the by-subject scores
+            score_student.append(scores.pop(0))
+        subject_scores.append(score_student)
+    return subject_scores
+
+def display_subject_details(scores_by_subject, subject_names):
+    print("print call")
+    for i, score_sub in enumerate(scores_by_subject):
+        print(subject_names[i], "Scores:")
+        for score in score_sub:
+            print("{:>2}".format(score))
+        print("Max: {:3}".format(max(score_sub)))
+        print("Min: {:3}".format(min(score_sub)))
+        print("Avg: {:6.2f}\n".format(
+            (sum(score_sub) / len(score_sub))))
+
 main()

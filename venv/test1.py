@@ -1,15 +1,16 @@
 def main():
-    name = str(input("Please input name"))
-    file = open("testfile.txt", "w")
-    file_num = open("numbers.txt", "r+")
-    total = 0
-    for line in file_num:
-        total = total+int(line)
-
-    file.write("your name is "+name)
-    print(total)
-    file_num.write("\n"+str(total))
-    file.close()
-    file_num.close()
+    li = [1]
+    Stop = True
+    while(Stop == True):
+        stri = str(input("Please enter a string"))
+        if stri != "":
+            li.append(stri)
+        else:
+            for e in range(len(li)):
+                for i in range (len(li)):
+                    if e != i:
+                        if li[e] == li[i]:
+                            print("Repeted strings:"+li[e])
+            Stop = False
 
 main()

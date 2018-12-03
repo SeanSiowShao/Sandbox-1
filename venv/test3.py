@@ -1,41 +1,20 @@
-import random
-
 def main():
+    num_entry = int(input("please input the number of people"))
+    name_li = []
+    age_li = []
+    for i in range(num_entry):
+        name_li.append(input("Enter name "+str(i)))
+        age_li.append(int(input("Enter age " + str(i))))
+    sort_li = sort(name_li,age_li)
+    print(str(name_li[sort_li]) +" "+ str(age_li[sort_li]))
 
+def sort(name_li, age_li):
+    max_age = 0
+    max_age_index = 0
+    for i in range(len(age_li)):
+        if max_age < age_li[i]:
+            max_age = age_li[i]
+            max_age_index = i
+    return max_age_index
 
-    NUMBERS = "1234567890"
-    CONSONANTS = "bcdfghjklmnpqrstvwxyzaeiou"
-    SPCGAR = "!@#$%^&*()_+"
-    VOWELS = "aeiou"
-    count = int(input("please the length of password"))
-    reps = 0
-
-    word_format = str(input("Please enter format"))
-    word = ""
-    if format_test(word_format) == True:
-        for kind in word_format:
-            if(count >= reps):
-                if kind == "c":
-                    word += random.choice(CONSONANTS)
-                elif kind == "n":
-                    word += random.choice(NUMBERS)
-                elif kind == "s":
-                    word += random.choice(SPCGAR)
-                else:
-                    word += random.choice(VOWELS)
-                reps= reps + 1
-    else:
-        print("please enter valid string and re-run the program")
-    print(word)
-
-def format_test(str_test):
-    trig = 0
-    print(str_test)
-    for w in str_test:
-        if (w != "c" and w!="v" and w!="n" and w != "s"):
-            print("*")
-            return False
-            trig = 1
-    if trig == 0:
-        return True
 main()
