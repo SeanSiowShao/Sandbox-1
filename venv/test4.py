@@ -1,20 +1,15 @@
 import random
 def main():
-    num_qp = int(input("How many quick pics do you want?"))
-    final_list= []
-    temp_list=[]
-    for i1 in range(num_qp):
-        i2 = 0
-        while i2 != 6:
-            ran_int = random.randint(1, 45)
-            if ran_int not in temp_list:
-                temp_list.append(ran_int)
-                i2= i2 + 1
+    names = ["Jack", "Jill", "Harry"]
+    dobs = [(12, 4, 1999), (1, 1, 2000), (27, 3, 1982)]
+    merge_var = merge(names,dobs)
+    print(merge_var)
 
-        temp_list.sort()
-        final_list.append(temp_list)
-        temp_list = []
-    for e in final_list:
-        print(e)
+def merge(l1,l2):
+    ret_dict = {}
+    for i in range(3):
+        ret_dict[l1[i]]=l2[i]
+    return ret_dict
+
 
 main()

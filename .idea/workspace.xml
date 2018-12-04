@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d885380-5d48-4d4a-88c6-8c4ad8f83ae9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +31,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="9252" />
+          <entry key="py" value="9800" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="9252" />
+          <entry key="Python" value="9800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,26 +105,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/test4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
-                <marker date="1543297166966" expanded="true" signature="25:472" ph="..." />
+                <marker date="1543903429115" expanded="true" signature="211:288" ph="..." />
+                <marker date="1543903429115" expanded="true" signature="286:288" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/test5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
-                <marker date="1543295786726" expanded="true" signature="493:753" ph="..." />
-                <marker date="1543295786726" expanded="true" signature="752:753" ph="..." />
+                <marker date="1543902163761" expanded="true" signature="94:529" ph="..." />
+                <marker date="1543902163761" expanded="true" signature="509:529" ph="..." />
+                <marker date="1543902163761" expanded="true" signature="528:529" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,13 +185,13 @@
         <option value="$PROJECT_DIR$/venv/age.py" />
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/Sandbox/test1.py" />
-        <option value="$PROJECT_DIR$/venv/test5.py" />
-        <option value="$PROJECT_DIR$/venv/test4.py" />
         <option value="$PROJECT_DIR$/venv/test2.py" />
         <option value="$PROJECT_DIR$/venv/test1.py" />
         <option value="$PROJECT_DIR$/venv/test3.py" />
         <option value="$USER_HOME$/Desktop/CP1404-SP532018-STARTER-A1-master/assignment1.py" />
         <option value="$USER_HOME$/Desktop/CP1404-SP532018-STARTER-A1-master/Assignment_1/assignment1.py" />
+        <option value="$PROJECT_DIR$/venv/test5.py" />
+        <option value="$PROJECT_DIR$/venv/test4.py" />
       </list>
     </option>
   </component>
@@ -234,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assignment1 (1)">
+  <component name="RunManager" selected="Python.test4">
     <configuration name="PyThon" type="PythonConfigurationType" factoryName="Python">
       <module name="JCU_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,27 +301,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JCU_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JCU_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -361,21 +343,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JCU_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/test5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.PyThon" />
       <item itemvalue="Python.test4" />
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.test3" />
       <item itemvalue="Python.assignment1" />
       <item itemvalue="Python.assignment1 (1)" />
+      <item itemvalue="Python.test5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.test5" />
         <item itemvalue="Python.assignment1 (1)" />
         <item itemvalue="Python.assignment1" />
         <item itemvalue="Python.test3" />
-        <item itemvalue="Python.test4" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543824130781</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test 1">
+      <created>1543900384764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543900384764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <marker date="1543297166966" expanded="true" signature="25:472" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/CP1404-SP532018-STARTER-A1-master/Assignment_1/assignment1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -587,11 +587,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/test5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="425">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
-            <marker date="1543295786726" expanded="true" signature="493:753" ph="..." />
-            <marker date="1543295786726" expanded="true" signature="752:753" ph="..." />
+            <marker date="1543902163761" expanded="true" signature="94:529" ph="..." />
+            <marker date="1543902163761" expanded="true" signature="509:529" ph="..." />
+            <marker date="1543902163761" expanded="true" signature="528:529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1543903429115" expanded="true" signature="211:288" ph="..." />
+            <marker date="1543903429115" expanded="true" signature="286:288" ph="..." />
           </folding>
         </state>
       </provider>
